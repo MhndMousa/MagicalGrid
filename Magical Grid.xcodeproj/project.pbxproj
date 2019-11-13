@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		592A48A9237BEC270067862B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592A48A8237BEC270067862B /* AppDelegate.swift */; };
+		592A48AB237BEC270067862B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592A48AA237BEC270067862B /* SceneDelegate.swift */; };
+		592A48AD237BEC270067862B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592A48AC237BEC270067862B /* ViewController.swift */; };
+		592A48B0237BEC270067862B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592A48AE237BEC270067862B /* Main.storyboard */; };
+		592A48B2237BEC290067862B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 592A48B1237BEC290067862B /* Assets.xcassets */; };
+		592A48B5237BEC290067862B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592A48B3237BEC290067862B /* LaunchScreen.storyboard */; };
+		592A48C0237BEC290067862B /* Magical_GridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592A48BF237BEC290067862B /* Magical_GridTests.swift */; };
+		592A48CB237BEC290067862B /* Magical_GridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592A48CA237BEC290067862B /* Magical_GridUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		592A48BC237BEC290067862B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 592A489D237BEC270067862B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 592A48A4237BEC270067862B;
+			remoteInfo = "Magical Grid";
+		};
+		592A48C7237BEC290067862B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 592A489D237BEC270067862B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 592A48A4237BEC270067862B;
+			remoteInfo = "Magical Grid";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		592A48A5237BEC270067862B /* Magical Grid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magical Grid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		592A48A8237BEC270067862B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		592A48AA237BEC270067862B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		592A48AC237BEC270067862B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		592A48AF237BEC270067862B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		592A48B1237BEC290067862B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		592A48B4237BEC290067862B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		592A48B6237BEC290067862B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		592A48BB237BEC290067862B /* Magical GridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magical GridTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		592A48BF237BEC290067862B /* Magical_GridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magical_GridTests.swift; sourceTree = "<group>"; };
+		592A48C1237BEC290067862B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		592A48C6237BEC290067862B /* Magical GridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magical GridUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		592A48CA237BEC290067862B /* Magical_GridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magical_GridUITests.swift; sourceTree = "<group>"; };
+		592A48CC237BEC290067862B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		592A48A2237BEC270067862B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592A48B8237BEC290067862B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592A48C3237BEC290067862B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		592A489C237BEC270067862B = {
+			isa = PBXGroup;
+			children = (
+				592A48A7237BEC270067862B /* Magical Grid */,
+				592A48BE237BEC290067862B /* Magical GridTests */,
+				592A48C9237BEC290067862B /* Magical GridUITests */,
+				592A48A6237BEC270067862B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		592A48A6237BEC270067862B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				592A48A5237BEC270067862B /* Magical Grid.app */,
+				592A48BB237BEC290067862B /* Magical GridTests.xctest */,
+				592A48C6237BEC290067862B /* Magical GridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		592A48A7237BEC270067862B /* Magical Grid */ = {
+			isa = PBXGroup;
+			children = (
+				592A48A8237BEC270067862B /* AppDelegate.swift */,
+				592A48AA237BEC270067862B /* SceneDelegate.swift */,
+				592A48AC237BEC270067862B /* ViewController.swift */,
+				592A48AE237BEC270067862B /* Main.storyboard */,
+				592A48B1237BEC290067862B /* Assets.xcassets */,
+				592A48B3237BEC290067862B /* LaunchScreen.storyboard */,
+				592A48B6237BEC290067862B /* Info.plist */,
+			);
+			path = "Magical Grid";
+			sourceTree = "<group>";
+		};
+		592A48BE237BEC290067862B /* Magical GridTests */ = {
+			isa = PBXGroup;
+			children = (
+				592A48BF237BEC290067862B /* Magical_GridTests.swift */,
+				592A48C1237BEC290067862B /* Info.plist */,
+			);
+			path = "Magical GridTests";
+			sourceTree = "<group>";
+		};
+		592A48C9237BEC290067862B /* Magical GridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				592A48CA237BEC290067862B /* Magical_GridUITests.swift */,
+				592A48CC237BEC290067862B /* Info.plist */,
+			);
+			path = "Magical GridUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		592A48A4237BEC270067862B /* Magical Grid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 592A48CF237BEC290067862B /* Build configuration list for PBXNativeTarget "Magical Grid" */;
+			buildPhases = (
+				592A48A1237BEC270067862B /* Sources */,
+				592A48A2237BEC270067862B /* Frameworks */,
+				592A48A3237BEC270067862B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Magical Grid";
+			productName = "Magical Grid";
+			productReference = 592A48A5237BEC270067862B /* Magical Grid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		592A48BA237BEC290067862B /* Magical GridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 592A48D2237BEC290067862B /* Build configuration list for PBXNativeTarget "Magical GridTests" */;
+			buildPhases = (
+				592A48B7237BEC290067862B /* Sources */,
+				592A48B8237BEC290067862B /* Frameworks */,
+				592A48B9237BEC290067862B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				592A48BD237BEC290067862B /* PBXTargetDependency */,
+			);
+			name = "Magical GridTests";
+			productName = "Magical GridTests";
+			productReference = 592A48BB237BEC290067862B /* Magical GridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		592A48C5237BEC290067862B /* Magical GridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 592A48D5237BEC290067862B /* Build configuration list for PBXNativeTarget "Magical GridUITests" */;
+			buildPhases = (
+				592A48C2237BEC290067862B /* Sources */,
+				592A48C3237BEC290067862B /* Frameworks */,
+				592A48C4237BEC290067862B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				592A48C8237BEC290067862B /* PBXTargetDependency */,
+			);
+			name = "Magical GridUITests";
+			productName = "Magical GridUITests";
+			productReference = 592A48C6237BEC290067862B /* Magical GridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		592A489D237BEC270067862B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Muhannad Alnemer";
+				TargetAttributes = {
+					592A48A4237BEC270067862B = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					592A48BA237BEC290067862B = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 592A48A4237BEC270067862B;
+					};
+					592A48C5237BEC290067862B = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 592A48A4237BEC270067862B;
+					};
+				};
+			};
+			buildConfigurationList = 592A48A0237BEC270067862B /* Build configuration list for PBXProject "Magical Grid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 592A489C237BEC270067862B;
+			productRefGroup = 592A48A6237BEC270067862B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				592A48A4237BEC270067862B /* Magical Grid */,
+				592A48BA237BEC290067862B /* Magical GridTests */,
+				592A48C5237BEC290067862B /* Magical GridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		592A48A3237BEC270067862B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592A48B5237BEC290067862B /* LaunchScreen.storyboard in Resources */,
+				592A48B2237BEC290067862B /* Assets.xcassets in Resources */,
+				592A48B0237BEC270067862B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592A48B9237BEC290067862B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592A48C4237BEC290067862B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		592A48A1237BEC270067862B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592A48AD237BEC270067862B /* ViewController.swift in Sources */,
+				592A48A9237BEC270067862B /* AppDelegate.swift in Sources */,
+				592A48AB237BEC270067862B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592A48B7237BEC290067862B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592A48C0237BEC290067862B /* Magical_GridTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592A48C2237BEC290067862B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592A48CB237BEC290067862B /* Magical_GridUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		592A48BD237BEC290067862B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 592A48A4237BEC270067862B /* Magical Grid */;
+			targetProxy = 592A48BC237BEC290067862B /* PBXContainerItemProxy */;
+		};
+		592A48C8237BEC290067862B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 592A48A4237BEC270067862B /* Magical Grid */;
+			targetProxy = 592A48C7237BEC290067862B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		592A48AE237BEC270067862B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				592A48AF237BEC270067862B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		592A48B3237BEC290067862B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				592A48B4237BEC290067862B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		592A48CD237BEC290067862B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		592A48CE237BEC290067862B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		592A48D0237BEC290067862B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXT8YUFTMG;
+				INFOPLIST_FILE = "Magical Grid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mhnd.Magical-Grid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		592A48D1237BEC290067862B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXT8YUFTMG;
+				INFOPLIST_FILE = "Magical Grid/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mhnd.Magical-Grid";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		592A48D3237BEC290067862B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXT8YUFTMG;
+				INFOPLIST_FILE = "Magical GridTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mhnd.Magical-GridTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magical Grid.app/Magical Grid";
+			};
+			name = Debug;
+		};
+		592A48D4237BEC290067862B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXT8YUFTMG;
+				INFOPLIST_FILE = "Magical GridTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mhnd.Magical-GridTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magical Grid.app/Magical Grid";
+			};
+			name = Release;
+		};
+		592A48D6237BEC290067862B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXT8YUFTMG;
+				INFOPLIST_FILE = "Magical GridUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mhnd.Magical-GridUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Magical Grid";
+			};
+			name = Debug;
+		};
+		592A48D7237BEC290067862B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXT8YUFTMG;
+				INFOPLIST_FILE = "Magical GridUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mhnd.Magical-GridUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Magical Grid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		592A48A0237BEC270067862B /* Build configuration list for PBXProject "Magical Grid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592A48CD237BEC290067862B /* Debug */,
+				592A48CE237BEC290067862B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		592A48CF237BEC290067862B /* Build configuration list for PBXNativeTarget "Magical Grid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592A48D0237BEC290067862B /* Debug */,
+				592A48D1237BEC290067862B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		592A48D2237BEC290067862B /* Build configuration list for PBXNativeTarget "Magical GridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592A48D3237BEC290067862B /* Debug */,
+				592A48D4237BEC290067862B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		592A48D5237BEC290067862B /* Build configuration list for PBXNativeTarget "Magical GridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				592A48D6237BEC290067862B /* Debug */,
+				592A48D7237BEC290067862B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 592A489D237BEC270067862B /* Project object */;
+}
