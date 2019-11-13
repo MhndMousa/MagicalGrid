@@ -81,7 +81,7 @@ class ViewController: UIViewController {
 
                 self.selectedCell?.backgroundColor = self.randomColor()
                 
-                self.view.addSubview(self.label)
+                self.selectedCell?.addSubview(self.label)
                 self.label.text = "\(Int.random(in: 0...100))"
                 self.label.translatesAutoresizingMaskIntoConstraints = false
                 self.label.centerYAnchor.constraint(equalTo: self.selectedCell!.centerYAnchor).isActive = true
