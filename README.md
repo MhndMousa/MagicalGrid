@@ -1,6 +1,7 @@
 # Magical Grid
 
 > Demonstaion of LBTA youtube short course
+
 > Base project for potential word of the day future project
 
 <p align = "center">
